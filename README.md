@@ -7,9 +7,9 @@
 * Entry point：  triggered_pubsub
 
 ### 环境变量 设置
-* WEBHOOK_URL = "http://xxxx"
-* PROM_USER = ""
-* PROM_PWD = ""
+* WEBHOOK_URL
+* PROM_USER
+* PROM_PWD
 
 
 ### 触发方式 设置
