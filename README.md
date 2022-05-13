@@ -1,5 +1,28 @@
-# google-cloud-functions-trigger
- 订阅 Google Cloud Pub/Sub 并处理消息
+# 说明文档
+
+
+### Google Cloud Functions 设置
+* Python version: 3.8
+* requests version:  2.25.1
+* Entry point：  triggered_pubsub 或者 triggered_http
+
+### 环境变量 设置
+* WEBHOOK_URL = "http://xxxx"
+* PROM_USER = ""
+* PROM_PASS = ""
+
+
+### 触发方式 设置
+* HTTP triggered_http
+* Pub/Sub triggered_pubsub
+
+
+### 注意事项 
+triggered_http设置Authentication Allow unauthenticated invocations
+
+
+
+##  示例 订阅 Google Cloud Pub/Sub 并处理消息
 
 ### 创建Logs Router接收器
 ![image](https://user-images.githubusercontent.com/10955940/167819841-0e273a0b-9069-4417-83ac-c144e45bed3e.png)
