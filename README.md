@@ -34,7 +34,9 @@
 1. main.py
 2. requirements.txt
 3. 选择 runtime  python 3.8
-4. 设置 Entry point  为 triggered_http 或者 triggered_pubsub
+4. 设置 Entry point  为 triggered_http 
+
+<img width="1759" alt="image" src="https://user-images.githubusercontent.com/10955940/168232400-57ff6f72-efa4-4a0c-bb00-7cc7d112b342.png">
 
 
 ### 第四步 部署
