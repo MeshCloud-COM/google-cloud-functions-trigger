@@ -26,14 +26,6 @@
 
 
 ## 示例 一 创建订阅 并push到 由Cloud Functions 创建的 webhook
-### 创建Logs Router接收器
-![image](https://user-images.githubusercontent.com/10955940/167327865-98a1d8a5-d697-46b6-ba13-a9740d245a79.png)
-![image](https://user-images.githubusercontent.com/10955940/167327881-d3e90d4c-6505-4f1f-8152-e5957e6391c9.png)
-![image](https://user-images.githubusercontent.com/10955940/167328077-02f09eac-c51b-450a-8ca7-336c6045ad6e.png)
-![image](https://user-images.githubusercontent.com/10955940/167328096-1693b4b9-fd9c-45e6-b793-55806ebadea4.png)
-![image](https://user-images.githubusercontent.com/10955940/167328110-fcc2e30b-cd17-497a-a272-50f6eef1ee4b.png)
-![image](https://user-images.githubusercontent.com/10955940/167328152-04202da8-1ff3-4f28-8ec0-e4878823a81e.png)
-![image](https://user-images.githubusercontent.com/10955940/167328180-45c3c75e-b9dd-45a4-99fd-1a943f0a6497.png)
 
 ### 创建订阅
 ![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
@@ -41,14 +33,6 @@
 
 
 ##  示例 二 订阅 Google Cloud Pub/Sub 并处理消息
-
-### 创建Logs Router接收器
-![image](https://user-images.githubusercontent.com/10955940/167819841-0e273a0b-9069-4417-83ac-c144e45bed3e.png)
-![image](https://user-images.githubusercontent.com/10955940/167819905-f552c339-d36d-4e51-909a-fcb635d2ca78.png)
-![image](https://user-images.githubusercontent.com/10955940/167819937-1f5e6928-cb84-4fe1-a810-d7391741bec4.png)
-![image](https://user-images.githubusercontent.com/10955940/167819983-a4fb52d6-72a7-4e3a-a1f5-21b5fd981391.png)
-![image](https://user-images.githubusercontent.com/10955940/167820055-7c09310d-f321-4604-bfd9-02cb64423b09.png)
-![image](https://user-images.githubusercontent.com/10955940/167820136-f4dc7956-5849-4e0c-b52a-09ab66b3fb7c.png)
 
 ### 创建订阅
 <img width="1744" alt="image" src="https://user-images.githubusercontent.com/10955940/167820477-34ce85e6-0fef-4652-aed9-664d50f8775f.png">
