@@ -19,7 +19,7 @@
 
 ## 实施步骤
 
-### 第一步 创建 Google Cloud Functions 并选择 需要订阅的 Pub/Sub Topic
+### 第一步 创建 Google Cloud Functions 设置 Trigger 并选择 需要订阅的 Pub/Sub Topic
 <img width="1757" alt="image" src="https://user-images.githubusercontent.com/10955940/168239459-e730a712-559b-4d5b-a722-a64a7f0598cc.png">
 
 ### 第二步 设置环境变量
