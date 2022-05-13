@@ -4,7 +4,7 @@
 ### Google Cloud Functions 设置
 * Python version: 3.8
 * requests version:  2.25.1
-* Entry point：  triggered_pubsub 或者 triggered_http
+* Entry point：  triggered_pubsub
 
 ### 环境变量 设置
 * WEBHOOK_URL = "http://xxxx"
@@ -13,19 +13,14 @@
 
 
 ### 触发方式 设置
-* HTTP triggered_http
 * Pub/Sub triggered_pubsub
 
-
-### 注意事项 
-如果使用triggered_http设置Authentication  Allow unauthenticated invocations
 
 
 ## 实施步骤
 
-### 第一步 创建 Google Cloud Functions
-<img width="1755" alt="image" src="https://user-images.githubusercontent.com/10955940/168231211-5d4d1b07-4193-4a05-a69b-22cd785b420b.png">
-
+### 第一步 创建 Google Cloud Functions 并选择 需要订阅的 Pub/Sub Topic
+<img width="1757" alt="image" src="https://user-images.githubusercontent.com/10955940/168239459-e730a712-559b-4d5b-a722-a64a7f0598cc.png">
 
 ### 第二步 设置环境变量
 <img width="1716" alt="image" src="https://user-images.githubusercontent.com/10955940/168217884-49110adb-8338-4f03-9e26-f430f645aba3.png">
@@ -34,24 +29,17 @@
 1. main.py
 2. requirements.txt
 3. 选择 runtime  python 3.8
-4. 设置 Entry point  为 triggered_http 
+4. 设置 Entry point  为 triggered_pubsub 
 
-<img width="1759" alt="image" src="https://user-images.githubusercontent.com/10955940/168232400-57ff6f72-efa4-4a0c-bb00-7cc7d112b342.png">
-
-
-### 第四步 创建Subscriptions 
-![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
+<img width="1760" alt="image" src="https://user-images.githubusercontent.com/10955940/168239897-cb116070-2fa8-4170-a27d-0665eb3198a8.png">
+<img width="1758" alt="image" src="https://user-images.githubusercontent.com/10955940/168239966-1168103e-1c6a-42fa-adad-2cd09bfe709e.png">
 
 
-### 第五步 
 
-#####  选择 push 方式 并关联 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
+### 第四步 
 
-![image](https://user-images.githubusercontent.com/10955940/167328650-46980969-623d-4a41-a609-ae76d2a9cad0.png)
+deploy 
 
-##### 选择 pull 方式 并管理 Google Cloud Functions 创建的 Pub/Sub Triggered 并处理消息
-
-<img width="1749" alt="image" src="https://user-images.githubusercontent.com/10955940/168234552-1f5816d4-b196-42a7-8fa3-595dd395cf37.png">
 
 
 ### 消息体
