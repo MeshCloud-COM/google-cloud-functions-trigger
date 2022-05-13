@@ -27,8 +27,8 @@
 ### 第三步 复制代码
 1. 拷贝源码中的 main.py
 2. 拷贝源码中的 requirements.txt
-3. 选择 Runtime  python 3.8
-4. 设置 Entry point  为 triggered_pubsub 
+3. 选择 Runtime  <font color=red>  python 3.8 </font>
+4. 设置 Entry point  为 <font color=red> triggered_pubsub  </font>
 
 <img width="1760" alt="image" src="https://user-images.githubusercontent.com/10955940/168239897-cb116070-2fa8-4170-a27d-0665eb3198a8.png">
 <img width="1758" alt="image" src="https://user-images.githubusercontent.com/10955940/168239966-1168103e-1c6a-42fa-adad-2cd09bfe709e.png">
