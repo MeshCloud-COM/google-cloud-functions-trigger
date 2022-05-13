@@ -39,27 +39,20 @@
 <img width="1759" alt="image" src="https://user-images.githubusercontent.com/10955940/168232400-57ff6f72-efa4-4a0c-bb00-7cc7d112b342.png">
 
 
-### 第四步 部署
-点击 deploy 即可
-
-
+### 第四步 创建Subscriptions 
+![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
 
 
 ### 第五步 
 
-##### 创建Subscriptions  选择 push 方式 并关联 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
+#####  选择 push 方式 并关联 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
 
-![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
 ![image](https://user-images.githubusercontent.com/10955940/167328650-46980969-623d-4a41-a609-ae76d2a9cad0.png)
 
-#####  创建Subscriptions  选择 pull 方式 并管理 Google Cloud Functions 创建的 Pub/Sub Triggered 并处理消息
+##### 选择 pull 方式 并管理 Google Cloud Functions 创建的 Pub/Sub Triggered 并处理消息
 
 <img width="1749" alt="image" src="https://user-images.githubusercontent.com/10955940/168234552-1f5816d4-b196-42a7-8fa3-595dd395cf37.png">
 
-
-创建订阅
-<img width="1744" alt="image" src="https://user-images.githubusercontent.com/10955940/167820477-34ce85e6-0fef-4652-aed9-664d50f8775f.png">
-<img width="1743" alt="image" src="https://user-images.githubusercontent.com/10955940/167820823-d68605d0-59ec-4e9f-bf57-fa2c014df4af.png">
 
 ### 消息体
 ```json
