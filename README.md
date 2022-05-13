@@ -36,13 +36,19 @@
 
 
 
-### 第四步 
+### 第四步 部署测试
 
 deploy 
 
+### 第五步 测试完成后 修改环境变量
+<img width="1761" alt="image" src="https://user-images.githubusercontent.com/10955940/168241444-b993c5f3-ecd7-4e2a-9cf4-c3419015187b.png">
+<img width="1759" alt="image" src="https://user-images.githubusercontent.com/10955940/168241528-15e894c6-4569-48ee-91e8-e814c120163c.png">
+
+### 第六步 部署生产
+deploy
 
 
-### 消息体
+### 消息体 示例
 ```json
 {
   '@type': 'type.googleapis.com/google.pubsub.v1.PubsubMessage',
@@ -53,4 +59,3 @@ deploy
 }
 ```
 
-### 测试
