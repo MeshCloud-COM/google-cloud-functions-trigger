@@ -21,7 +21,7 @@
 triggered_http设置Authentication Allow unauthenticated invocations
 
 
-## 示例 一 订阅 Logs Router 的 Pub/Sub 并处理消息
+## 示例 一 创建push订阅 到 由Cloud Functions 创建的 webhook
 ### 创建Logs Router接收器
 ![image](https://user-images.githubusercontent.com/10955940/167327865-98a1d8a5-d697-46b6-ba13-a9740d245a79.png)
 ![image](https://user-images.githubusercontent.com/10955940/167327881-d3e90d4c-6505-4f1f-8152-e5957e6391c9.png)
