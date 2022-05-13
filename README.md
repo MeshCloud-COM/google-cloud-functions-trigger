@@ -21,18 +21,31 @@
 如果使用triggered_http设置Authentication  Allow unauthenticated invocations
 
 
-### 设置环境变量
+## 实施步骤
+
+### 第一步 创建 Google Cloud Functions
+<img width="1755" alt="image" src="https://user-images.githubusercontent.com/10955940/168231211-5d4d1b07-4193-4a05-a69b-22cd785b420b.png">
+
+
+### 第二步 设置环境变量
 <img width="1716" alt="image" src="https://user-images.githubusercontent.com/10955940/168217884-49110adb-8338-4f03-9e26-f430f645aba3.png">
 
+### 第三步 复制代码
+1. main.py
+2. requirements.txt
+3. 选择 runtime  python 3.8
+4. 设置 Entry point  为 triggered_http 或者 triggered_pubsub
 
-## 示例 一 创建订阅 并push到 由Cloud Functions 创建的 webhook
+
+
+## 示例 一 先创建Subscriptions 并 push 到 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
 
 ### 创建订阅
 ![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
 ![image](https://user-images.githubusercontent.com/10955940/167328650-46980969-623d-4a41-a609-ae76d2a9cad0.png)
 
 
-##  示例 二 订阅 Google Cloud Pub/Sub 并处理消息
+##  示例 二 直接订阅Topics 并创建 Google Cloud Functions 的 Pub/Sub Triggered 并处理消息
 
 ### 创建订阅
 <img width="1744" alt="image" src="https://user-images.githubusercontent.com/10955940/167820477-34ce85e6-0fef-4652-aed9-664d50f8775f.png">
