@@ -5,9 +5,9 @@ from requests.auth import HTTPBasicAuth
 
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 PROM_USER = os.getenv("PROM_USER")
-PROM_PASS = os.getenv("PROM_PASS")
+PROM_PWD = os.getenv("PROM_PWD")
 
-AUTH = HTTPBasicAuth(PROM_USER, PROM_PASS)
+AUTH = HTTPBasicAuth(PROM_USER, PROM_PWD)
 
 
 def triggered_pubsub(event, context):
