@@ -1,19 +1,19 @@
 # 说明文档
 
 
-### Google Cloud Functions 设置
+### Google Cloud Functions
 * Python version: 3.8
 * requests version:  2.25.1
 * Entry point：  triggered_pubsub
 
-### 环境变量 设置
+### 环境变量
 * WEBHOOK_URL
 * PROM_USER
 * PROM_PWD
 
 
-### 触发方式 设置
-* Pub/Sub triggered_pubsub
+### 触发方式 
+* Pub/Sub 
 
 
 
