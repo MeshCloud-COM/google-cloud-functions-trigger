@@ -37,6 +37,11 @@
 4. 设置 Entry point  为 triggered_http 或者 triggered_pubsub
 
 
+### 第四步 部署
+点击 deploy 即可
+
+
+
 
 ## 示例 一 先创建Subscriptions 并 push 到 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
 
