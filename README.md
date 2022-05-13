@@ -4,7 +4,6 @@
 ### Google Cloud Functions
 * Python version: 3.8
 * requests version:  2.25.1
-* Entry point：  triggered_pubsub
 
 ### 环境变量
 * WEBHOOK_URL
@@ -26,9 +25,9 @@
 <img width="1716" alt="image" src="https://user-images.githubusercontent.com/10955940/168217884-49110adb-8338-4f03-9e26-f430f645aba3.png">
 
 ### 第三步 复制代码
-1. main.py
-2. requirements.txt
-3. 选择 runtime  python 3.8
+1. 拷贝源码中的 main.py
+2. 拷贝源码中的 requirements.txt
+3. 选择 Runtime  python 3.8
 4. 设置 Entry point  为 triggered_pubsub 
 
 <img width="1760" alt="image" src="https://user-images.githubusercontent.com/10955940/168239897-cb116070-2fa8-4170-a27d-0665eb3198a8.png">
