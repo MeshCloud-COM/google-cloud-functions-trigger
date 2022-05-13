@@ -45,16 +45,19 @@
 
 
 
-## 示例 一 先创建Subscriptions 并 push 到 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
+### 第五步 
 
-### 创建订阅
+##### 创建Subscriptions  选择 push 方式 并关联 Google Cloud Functions 创建的 HTTP Triggered 并处理消息
+
 ![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
 ![image](https://user-images.githubusercontent.com/10955940/167328650-46980969-623d-4a41-a609-ae76d2a9cad0.png)
 
+#####  创建Subscriptions  选择 pull 方式 并管理 Google Cloud Functions 创建的 Pub/Sub Triggered 并处理消息
 
-##  示例 二 直接订阅Topics 并创建 Google Cloud Functions 的 Pub/Sub Triggered 并处理消息
+<img width="1749" alt="image" src="https://user-images.githubusercontent.com/10955940/168234552-1f5816d4-b196-42a7-8fa3-595dd395cf37.png">
 
-### 创建订阅
+
+创建订阅
 <img width="1744" alt="image" src="https://user-images.githubusercontent.com/10955940/167820477-34ce85e6-0fef-4652-aed9-664d50f8775f.png">
 <img width="1743" alt="image" src="https://user-images.githubusercontent.com/10955940/167820823-d68605d0-59ec-4e9f-bf57-fa2c014df4af.png">
 
