@@ -21,8 +21,22 @@
 triggered_http设置Authentication Allow unauthenticated invocations
 
 
+## 示例 一 订阅 Logs Router 的 Pub/Sub 并处理消息
+### 创建Logs Router接收器
+![image](https://user-images.githubusercontent.com/10955940/167327865-98a1d8a5-d697-46b6-ba13-a9740d245a79.png)
+![image](https://user-images.githubusercontent.com/10955940/167327881-d3e90d4c-6505-4f1f-8152-e5957e6391c9.png)
+![image](https://user-images.githubusercontent.com/10955940/167328077-02f09eac-c51b-450a-8ca7-336c6045ad6e.png)
+![image](https://user-images.githubusercontent.com/10955940/167328096-1693b4b9-fd9c-45e6-b793-55806ebadea4.png)
+![image](https://user-images.githubusercontent.com/10955940/167328110-fcc2e30b-cd17-497a-a272-50f6eef1ee4b.png)
+![image](https://user-images.githubusercontent.com/10955940/167328152-04202da8-1ff3-4f28-8ec0-e4878823a81e.png)
+![image](https://user-images.githubusercontent.com/10955940/167328180-45c3c75e-b9dd-45a4-99fd-1a943f0a6497.png)
 
-##  示例 订阅 Google Cloud Pub/Sub 并处理消息
+### 创建订阅
+![image](https://user-images.githubusercontent.com/10955940/167328637-36a53abc-40be-4ca1-95d1-323c4ac77dc2.png)
+![image](https://user-images.githubusercontent.com/10955940/167328650-46980969-623d-4a41-a609-ae76d2a9cad0.png)
+
+
+##  示例 二 订阅 Google Cloud Pub/Sub 并处理消息
 
 ### 创建Logs Router接收器
 ![image](https://user-images.githubusercontent.com/10955940/167819841-0e273a0b-9069-4417-83ac-c144e45bed3e.png)
